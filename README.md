@@ -23,7 +23,7 @@ Before running the project, ensure that you have the following packages installe
 - `jupyter` (for running the `.ipynb` notebook)
 
 You can install all the dependencies using:
-```bash
+bash
 pip install transformers torch pandas scikit-learn numpy flask jupyter
 
 ### How to Run
@@ -36,7 +36,6 @@ pip install transformers torch pandas scikit-learn numpy flask jupyter
    - Once the model is saved, you can run `Sentiment_Analysis.py` from the command line:
    ```bash
    python Sentiment_Analysis.py
-   ```
    - This script will load the saved model and prompt you to enter a movie review. It will then output the sentiment prediction (positive or negative).
 
 
