@@ -1,7 +1,5 @@
 # Sentiment_Analysis
-Here is the `README.md` file content formatted in code style for you:
 
-```markdown
 # Sentiment Analysis Using BERT
 
 This project implements a sentiment analysis model using BERT (Bidirectional Encoder Representations from Transformers) to classify IMDB movie reviews as either positive or negative. The model is trained using a custom dataset and saved for future inference.
@@ -27,7 +25,6 @@ Before running the project, ensure that you have the following packages installe
 You can install all the dependencies using:
 ```bash
 pip install transformers torch pandas scikit-learn numpy flask jupyter
-```
 
 ### How to Run
 
